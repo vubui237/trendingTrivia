@@ -27,9 +27,9 @@ This app is all about trivia questions.
 
 #### 1. You will need to get trivia questions from the server and show them on the screen.
 
-You will get the data in pages. `Remember: a page of data, is a small slice of all the questions on the server. IE - you will only get 10 at a time`
+You will get the data in pages. `Remember: a page of data is a small slice of all the questions on the server. IE - you will only get 10 at a time`
 
-1b. You will need to let the user click next page to get the next 10 question, and previous page to get the previous 10 questions.
+1b. You will need to let the user click next page to get the next 10 questions, and previous page to get the previous 10 questions.
 
 ![Image of Project](https://github.com/DevMountain/trendingTrivia/blob/master/screenshot/screenshot1.jpg)
 
@@ -50,7 +50,7 @@ The user should be able to filter by:
 * easy, medium and hard diffuculty
 * by animal
 
-Make the `Search by Animal` button change whether or not the animal name input box is visible.
+Make the `Search by Animal` button trigger whether the animal name input box is visible or not.
 
 Make the input box it filter all questions on the screen, and only the questions on the screen.
 
@@ -89,13 +89,13 @@ Add a question will post it to the server.
 
 #### 6. Styling
 
-We have put styles for everything in the styles folder, but you can make your own or use those.  Just make it look the same.
+We have put styles for everything in the styles folder, but you can choose make your own or use those.  Just make it look the same.
 
 There some effects when hovering over a question, and over the gear.  Try to get those as well.
 
 #### 7. Black diamond
 
-Remember the users answers on local storage.
+Remember the user's answers on local storage.
 
 
 ### References
