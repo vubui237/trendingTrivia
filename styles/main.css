@@ -228,3 +228,11 @@ input[type="range"] {
 .red {
   background: rgb(218, 45, 123);
 }
+#questionBox {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(134, 134, 134, 0.52);
+}

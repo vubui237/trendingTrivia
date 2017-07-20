@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="trivia">
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="/styles/reset.css">
-  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
   <title>Trivia Trends</title>
   <link rel="shortcut icon" href="/styles/assets/crownFavicon.png">
 </head>
 
-<body>
+<body ng-controller="controller">
   <header>
     <div></div>
     <h1>Trivia Trends</h1>
@@ -28,6 +28,16 @@
     </div>
 
     <!-- Questions go here -->
+    <div id="questionBox"ng-repeat="item in getQ">
+     {{item.question}}
+     <ul>
+    <li>{{item.options[1]}}</li>
+    <li>{{item.options[2]}}</li>
+    <li>{{item.options[3]}}</li>
+    <li>{{item.options[4]}}</li>
+    </ul>
+
+    </div>
 
   </article>
 
@@ -81,7 +91,9 @@
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js" charset="utf-8"></script>
-  <script src="./app.js" charset="utf-8"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+  <script src="js/service.js" charset="utf-8"></script>
+  <script src="js/controller.js" charset="utf-8"></script>
 </body>
 
 </html>
